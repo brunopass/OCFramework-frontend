@@ -1,0 +1,38 @@
+.navbar{
+    height: 70px;
+    width: 100%;
+    background: linear-gradient(-45deg,#1A54DC, #123B9A);
+    -webkit-box-shadow: 0px 4px 14px 3px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 4px 14px 3px rgba(0,0,0,0.25);
+    box-shadow: 0px 4px 14px 3px rgba(0,0,0,0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+.logo{
+    height: 50px;
+}
+
+.navbarHolder{
+    display: flex;
+    width: 95%;
+    max-width: 1400px;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbarRight{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbarLinkers{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

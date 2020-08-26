@@ -1,0 +1,30 @@
+.pricing{
+    width: 100%;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pricingMid{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricingCards{
+    width: 1250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.pricingMidH1{
+    margin: 0 0 50px 0;
+    color: #172954;
+    font-size: 60px;
+}

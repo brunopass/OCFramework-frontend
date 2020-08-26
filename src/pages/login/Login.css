@@ -1,0 +1,109 @@
+a{
+    text-decoration: none;
+}
+
+.login{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('../../assets/OCFgif.gif');
+    background-size: cover;
+    
+}
+
+.recovery{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('../../assets/OCFgif3.gif');
+    background-size: cover;
+}
+
+.loginMid{
+    height: 90vh;
+    
+}
+
+.loginMidCard{
+    margin-top: 35px;
+
+    min-height: 600px;
+    max-height: max-content;
+    width: 400px;
+    background-color: #1b1b1b;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 5px 14px 3px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 5px 14px 3px rgba(0,0,0,0.25);
+    box-shadow: 0px 5px 14px 3px rgba(0,0,0,0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recoveryMidCard{
+    margin-top: 35px;
+
+    height: max-content;
+    width: 400px;
+    background-color: #1b1b1b;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 5px 14px 3px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 5px 14px 3px rgba(0,0,0,0.25);
+    box-shadow: 0px 5px 14px 3px rgba(0,0,0,0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginMidCardText{
+    width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 50px 0 35px 0;
+}
+
+.loginMidCardTextH1{
+    margin: 0;
+    padding: 0;
+    color: #f5f5f5;
+    font-size: 35px;
+}
+
+.loginMidCardTextH3{
+    margin: 0;
+    padding: 0;
+    color: #BFC5D4;
+    font-size: 15px;
+}
+
+.loginMidCardBottom{
+    width: 300px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.loginMidCardBottomLinks{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.loginMidCardBottomLink{
+    text-decoration: underline;
+    color: #f5f5f5;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 15px 0 0 0;
+}
