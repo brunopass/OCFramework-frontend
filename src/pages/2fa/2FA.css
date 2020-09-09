@@ -1,0 +1,35 @@
+.tfa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tfaBody{
+    height: 90vh;
+    width: 100%;
+    max-width: 1400px;
+}
+
+.tfaH1{
+    margin: 50px 0 0 0;
+    color: #fff;
+    font-size: 60px;
+    padding: 0;
+}
+
+.tfaH3{
+    margin: 0 0 35px 0;
+    color: #f5f5f5;
+    font-size: 20px;
+    padding: 0;
+}
+
+.tfaBodyText{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 620px;
+
+}
